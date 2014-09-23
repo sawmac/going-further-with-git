@@ -1,4 +1,4 @@
-Git Further
+Going Further With Git
 =======================
 
 ##Configuration
@@ -15,4 +15,8 @@ Git Further
 ```git config --global pull.rebase true``` Same as ```git pull --rebase``` Avoids additional commit for the merge.
 
 ###Aliases
-```
+```git config --global alias.s "status -s"``` Let's you type ```git s``` and get shorthand for git status
+
+```git config --global alias.lg "log --oneline --decorate --all --graph"``` Let's you view log on single line with color and graph.
+
+
