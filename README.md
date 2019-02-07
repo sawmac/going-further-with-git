@@ -1,7 +1,7 @@
 Going Further With Git
 =======================
 
-##Configuration
+## Configuration
 ```git config --global --list``` Display global configuration settings. Or just open the ```~/.gitconfig``` file
 
 ```git config --local --list``` Display local configuration settings. Or just open the ```.git/config``` file
@@ -14,7 +14,7 @@ Going Further With Git
 
 ```git config --global pull.rebase true``` Same as ```git pull --rebase``` Avoids additional commit for the merge.
 
-###Aliases
+### Aliases
 ```git config --global alias.s "status -s"``` Let's you type ```git s``` and get shorthand for git status
 
 ```git config --global alias.lg "log --oneline --decorate --all --graph"``` Let's you view log on single line with color and graph.
